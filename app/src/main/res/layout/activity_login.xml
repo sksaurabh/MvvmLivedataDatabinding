@@ -53,13 +53,10 @@
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_person" />
 
-                <TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="17dp"
-                    android:hint="@string/email">
 
-                    <AppCompatEditText
+
+                    <EditText
+                        android:hint="@string/email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:imeOptions="actionNext"
@@ -71,7 +68,7 @@
                         android:textSize="20sp"
                         app:backgroundTint="#00ce8f" />
 
-                </TextInputLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -87,13 +84,10 @@
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_lock" />
 
-                <TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="17dp"
-                    android:hint="@string/password">
 
-                    <AppCompatEditText
+
+                    <EditText
+                        android:hint="@string/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:imeOptions="actionDone"
@@ -105,7 +99,7 @@
                         android:textSize="20sp"
                         app:backgroundTint="#00ce8f" />
 
-                </TextInputLayout>
+
             </LinearLayout>
 
 
